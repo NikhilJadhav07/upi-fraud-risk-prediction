@@ -458,7 +458,9 @@ else:
                        "bar": {"color": accent, "thickness": .28}, "bgcolor": PANEL,
                        "steps": [{"range": [0, 10], "color": "#173C3B"}, {"range": [10, 35], "color": "#4C4229"}, {"range": [35, 100], "color": "#4B2735"}],
                        "threshold": {"line": {"color": CYAN, "width": 3}, "thickness": .8, "value": threshold * 100}}))
-            gauge.update_layout(**PLOT_LAYOUT, height=245, margin=dict(l=25, r=25, t=20, b=10))
+            gauge.update_layout(
+                **{**PLOT_LAYOUT, "height": 245, "margin": dict(l=25, r=25, t=20, b=10)}
+            )
             st.plotly_chart(gauge, use_container_width=True, config={"displayModeBar": False})
         with r2:
             t = result["transaction"]
@@ -483,3 +485,4 @@ else:
             st.write("The risk probability is an estimate from a model trained on synthetic demonstration data. It should not be used to approve, block or investigate real payments.")
 
     st.markdown("<div class='footer'>UPIShield · Prediction demonstration · Model artifact is loaded locally · Synthetic-data prototype only</div>", unsafe_allow_html=True)
+
