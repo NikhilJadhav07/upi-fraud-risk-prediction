@@ -192,7 +192,7 @@ Real transaction-level fraud data is confidential, so this project uses a **synt
 **Nikhil Jadhav**
 B.E. in Artificial Intelligence & Data Science · Data Analyst Intern, Code B, Nashik
 
-🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-USERNAME) · 💻 [GitHub](https://github.com/NikhilJadhav07) · 📧 your.email@example.com
+🔗 [LinkedIn]([(https://www.linkedin.com/in/nikhil-jadhav-347520423]) · 💻 [GitHub](https://github.com/NikhilJadhav07) · 📧 nikhiljadhav42135@gmail.com
 
 Open to entry-level roles in **Data Analytics, Data Science / ML, and Python Development**.
 
