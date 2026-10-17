@@ -33,12 +33,12 @@
 ### Overview Dashboard
 Executive view of transaction activity, fraud rate and financial exposure, with filters for transaction type, date range and analysis view.
 
-![Overview Dashboard](Overview Dashboard.png)
+![Dashboard Overview](Overview Dashboard.png)
 
 ### Transaction Risk Assessment
 Enter a transaction profile (amount, type, device, payee, account age, recent activity) and get an estimated fraud risk.
 
-![Transaction Prediction](Transaction Prediction.png)
+![UPI Transaction Prediction](Transaction Prediction.png)
 
 ---
 
